@@ -19,11 +19,14 @@
         .manrope {
             font-family: 'Manrope', sans-serif;
         }
+        .line {
+            border-top: 1px dotted gray;
+        }
     </style>
 
 </head>
 
-<body class="manrope max-w-screen-xl">
+<body class="manrope max-w-screen-xl lg:ml-10">
     <header>
         <nav>
             <div class="navbar bg-base-100 py-15">
@@ -68,25 +71,27 @@
             <div>
                 <div class="carousel max-w-screen-xl mt-16 ml-5">
                     <div id="slide1" class="carousel-item relative w-full">
-                      <img src="Images/1.png" class="w-full" />
-                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide2" class="btn btn-circle">❮</a> 
-                        <a href="#slide2" class="btn btn-circle">❯</a>
-                      </div>
-                    </div> 
+                        <img src="Images/1.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
                     <div id="slide2" class="carousel-item relative w-full">
-                      <img src="Images/2.png" class="w-full" />
-                      <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                        <a href="#slide1" class="btn btn-circle">❮</a> 
-                        <a href="#slide1" class="btn btn-circle">❯</a>
-                      </div>
-                    </div> 
-                  </div>
+                        <img src="Images/2.png" class="w-full" />
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="w-full ml-5 lg:absolute bottom-8 right-8 lg:w-5/12 bg-black text-white p-8 space-y-4 rounded-2xl">
+            <div
+                class="w-full ml-5 lg:absolute bottom-8 right-8 lg:w-5/12 bg-black text-white p-8 space-y-4 rounded-2xl">
                 <h3 class="text-2xl font-extrabold">Meet all the heroes from the field</h3>
                 <p class="text-[#ffffff99] font-medium">
-                    Meet the formidable heroes gracing the hockey field, where skill, determination, and teamwork converge
+                    Meet the formidable heroes gracing the hockey field, where skill, determination, and teamwork
+                    converge
                     to create a thrilling spectacle of athleticism and sportsmanship.
                 </p>
             </div>
@@ -94,6 +99,60 @@
 
     </header>
     <main>
+        <!-- professional hockey club -->
+        <section class="space-y-4 my-16">
+            <hr class="line">
+            <div class="py-6 text-center space-y-4">
+                <h3 class="text-3xl font-extrabold">Professional Hockeys Club</h3>
+                <p class="lg:px-56 text-[#13131899]">The professional hockey club stands as a beacon of excellence, attracting top-tier athletes and dedicated enthusiasts alike, with a commitment to unparalleled training facilities and a rich legacy of success in the competitive world of professional hockey. Their unwavering dedication to the sport ensures a dynamic and thriving community that extends beyond the rink.
+                </p>
+                <hr class="line">
+            </div>
+            <!-- radial progress -->
+            <div class="flex justify-center text-center space-y-4 flex-col lg:flex-row">
+                <div>
+                    <div class="radial-progress text-red-500" style="--value:87;" role="progressbar">87%</div>
+                    <h4 class="font-bold">Prayer Facility</h4>
+                    <p class="text-[#13131899]">Dedicated prayer facility, acknowledging and respecting the diverse spiritual needs of its members.</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-green-500" style="--value:95;" role="progressbar">95%</div>
+                    <h4 class="font-bold">Experienced coach</h4>
+                    <p class="text-[#13131899]">Wealth of knowledge and expertise fosters skill development and strategic excellence among the players.</p>
+                </div>
+                <div>
+                    <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+                    <h4 class="font-bold">Senior Player</h4>
+                    <p class="text-[#13131899]">Leadership on and off the field sets a commendable example, inspiring the team with experience, skill, and sportsmanship.
+                    </p>
+                </div>
+                <div>
+                    <div class="radial-progress text-blue-600" style="--value:80;" role="progressbar">80%</div>
+                    <h4 class="font-bold">Training Ground</h4>
+                    <p class="text-[#13131899]">Designed to hone players' skills, foster teamwork, and provide an optimal environment for athletic development.
+                    </p>
+                </div>
+            </div>
+
+
+            </div>
+        </section>
+        <!-- program section -->
+        <section>
+
+        </section>
+        <!-- our new products -->
+        <section>
+
+        </section>
+        <!-- client's question -->
+        <section>
+
+        </section>
+        <!-- get in touch -->
+        <section>
+            
+        </section>
 
     </main>
     <footer>
